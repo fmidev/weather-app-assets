@@ -542,7 +542,7 @@ export const weatherSymbolKeyParser = (key: string) => {
   return parsedKey;
 };
 
-export const weatherSymbolGetter = (key: string, dark: boolean) => {
+export const weatherSymbolGetter = (key: string, dark: boolean): React.ComponentType<SvgProps> | null => {
   const symbolSet = dark ? symbolsDark : symbolsLight;
   const parsedKey = weatherSymbolKeyParser(key);
 
