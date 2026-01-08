@@ -66,34 +66,22 @@ export const CAP_WARNING_YELLOW = '#FFFB7B';
 export const CAP_WARNING_ORANGE = '#FFCB5F';
 export const CAP_WARNING_RED = '#FF5A5A';
 
-/*
-export const RAIN_1_LIGHT = '#3A698E';
-export const RAIN_2_LIGHT = '#6BB1C9';
-export const RAIN_3_LIGHT = '#C5FBF2';
-export const RAIN_4_LIGHT = '#589D6B';
-export const RAIN_5_LIGHT = '#F9F961';
-export const RAIN_6_LIGHT = '#D29F00';
-export const RAIN_7_LIGHT = '#AE5200';
-export const RAIN_8_LIGHT = '#760000';
-
-export const RAIN_1_DARK = '#C1FAFB';
-export const RAIN_2_DARK = '#6BB1C9';
-export const RAIN_3_DARK = '#247DA2';
-export const RAIN_4_DARK = '#6BC37E';
-export const RAIN_5_DARK = '#F9F961';
-export const RAIN_6_DARK = '#D29F00';
-export const RAIN_7_DARK = '#AE5200';
-export const RAIN_8_DARK = '#760000';
-*/
-
-export const RAIN_1 = '#ABF4F4';
-export const RAIN_2 = '#3FA9D1';
-export const RAIN_3 = '#0765B5';
-export const RAIN_4 = '#0539AE';
-export const RAIN_5 = '#0C03B2';
-export const RAIN_6 = '#4B04ED';
-export const RAIN_7 = '#983EE5';
-export const RAIN_8 = '#E05FF7';
+export const RAIN_1_DARK = '#ACF2FA';
+export const RAIN_2_DARK = '#86BEF3';
+export const RAIN_3_DARK = '#608AEC';
+export const RAIN_4_DARK = '#3A56E5';
+export const RAIN_5_DARK = '#1422DE';
+export const RAIN_6_DARK = '#8238EC';
+export const RAIN_7_DARK = '#B943F3';
+export const RAIN_8_DARK = '#F14FFA';
+export const RAIN_1_LIGHT = '#ABF4F4';
+export const RAIN_2_LIGHT = '#3FA9D1';
+export const RAIN_3_LIGHT = '#0765B5';
+export const RAIN_4_LIGHT = '#0539AE';
+export const RAIN_5_LIGHT = '#0C03B2';
+export const RAIN_6_LIGHT = '#4B04ED';
+export const RAIN_7_LIGHT = '#983EE5';
+export const RAIN_8_LIGHT = '#E05FF7';
 
 export const CHART_BLUE = '#7594EB';
 
