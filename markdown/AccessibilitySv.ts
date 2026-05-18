@@ -18,7 +18,6 @@ tillganglighet@traficom.fi
 Applikationen är inte ännu till alla delar tillgänglig.
 ## Innehåll eller funktioner som inte är tillgängliga
 - En del av symbolerna i applikationen (till exempel balkarna för dagvisa nederbördsmängder) har ingen textmotsvarighet. (WCAG 1.1.1).\n
-- I applikationen finns element som är grupperade så att de hör ihop, men som kan få ett separat fokus. (WCAG 2.4.3)\n
 Målet är att åtgärda bristerna som listas här under 2026-2027, om möjligt utan väsentliga förändringar i appens utseende eller funktionalitet.
 ## Tillgängligheten i innehåll som baserar sig på kartor
 I applikationen erbjuds väderinformation som baserar sig på kartor. Enligt lagen behöver kartor och karttjänster inte uppfylla tillgänglighetskraven. Data som visualiserats på kartan är tillgängliga i ett annat format i applikationen.
