@@ -17,7 +17,6 @@ Traficom valvoo saavutettavuusvaatimusten toteutumista vuoden 2025 alusta alkaen
 Sovellus ei ole vielä kaikilta osin saavutettava.
 ## Sisällöt ja toiminnot, jotka eivät vielä ole saavutettavia
 - Osassa sovelluksen symboleista (esimerkiksi päiväkohtaisten sademäärien palkit) ei ole tekstivastinetta. (WCAG 1.1.1).\n
-- Sovelluksessa on elementtejä, jotka ovat ryhmitelty yhteen kuuluviksi, mutta saattavat saada kohdistuksen erikseen. (WCAG 2.4.3)\n
 Tässä listatut puutteet pyritään korjaamaan vuosien 2026 - 2027 aikana mikäli ne eivät vaadi merkittäviä muutoksia sovelluksen ulkonäköön tai toiminnallisuuteen.
 ## Karttoihin perustuvan sisällön saavutettavuus
 Sovelluksessa tarjotaan karttoihin perustuvaa säätietoa. Lain mukaan karttojen ja karttapalvelujen ei tarvitse täyttää saavutettavuusvaatimuksia. Kartalla visualisoitu data on saatavilla muualla sovelluksessa saavutettavassa muodossa.
