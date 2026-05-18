@@ -17,7 +17,6 @@ saavutettavuus@traficom.fi
 The application is not yet fully accessible.
 ## Content or functions that are not yet accessible
 - Some of the application symbols (e.g. rainfall bars per day) do not have a text equivalent. (WCAG 1.1.1).\n
-- The application has elements that are grouped together but may become in focus separately. (WCAG 2.4.3)\n
 The aim is to rectify the shortcomings listed here during 2026-2027 if possible without significant changes to app outlook or functionality.
 ## Accessibility of map-based content
 The application provides map-based weather information. Under legislation, maps and map services do not have to meet accessibility requirements. The data visualised on maps is available elsewhere in the application in an accessible format.
