@@ -242,6 +242,7 @@ export type CustomTheme = {
     warningCardBorder: string;
     weatherButtonBackground: string;
     meteorologistSnapshotCard: string;
+    forecastBackground: string;
   },
   fonts: {
     regular: FontStyle;
