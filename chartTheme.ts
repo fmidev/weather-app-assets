@@ -1,3 +1,5 @@
+import { REGULAR_FONT } from '@assets/constants';
+
 // *
 // * Colors
 // *
@@ -36,7 +38,7 @@ const baseProps = {
 // * Labels
 // *
 const baseLabelStyles = {
-  fontFamily: 'Roboto',
+  fontFamily: REGULAR_FONT,
   fontSize,
   letterSpacing,
   padding,

@@ -43,23 +43,24 @@ import {
   MEDIUM_BLUE,
 } from '@assets/colors';
 import { Platform } from 'react-native';
+import { REGULAR_FONT, MEDIUM_FONT, BOLD_FONT } from '@assets/constants';
 
 const fonts = Platform.select({
   default: {
     regular: {
-      fontFamily: 'Roboto-Regular',
+      fontFamily: REGULAR_FONT,
       fontWeight: '400' as const,
     },
     medium: {
-      fontFamily: 'Roboto-Medium',
+      fontFamily: MEDIUM_FONT,
       fontWeight: '500' as const,
     },
     bold: {
-      fontFamily: 'Roboto-Bold',
+      fontFamily: BOLD_FONT,
       fontWeight: '600' as const,
     },
     heavy: {
-      fontFamily: 'Roboto-Bold',
+      fontFamily: BOLD_FONT,
       fontWeight: '700' as const,
     },
   }
