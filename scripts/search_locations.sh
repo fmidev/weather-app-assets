@@ -21,7 +21,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 jq --arg query "$1" '
-[
+reduce (
   .[]
   | select(
       .name
@@ -30,5 +30,14 @@ jq --arg query "$1" '
       | ascii_downcase
       | contains($query | ascii_downcase)
     )
-]
+) as $location (
+  {seen: {}, results: []};
+  if .seen[$location.id] then
+    .
+  else
+    .seen[$location.id] = true
+    | .results += [$location]
+  end
+)
+| .results
 ' "$LOCATIONS_FILE"
