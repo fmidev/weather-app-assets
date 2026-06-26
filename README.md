@@ -18,7 +18,7 @@ git clone --recurse-submodules https://github.com/[organization]/weather-app
 
 ## Scripts
 
-Repository contains scripts to generate geolocations as json-file and some utility scripts for checking data in those files. Geolocation files in json-format are alternative for Smartmet Server geonames-database and may be used if geonames.org doesn't have good quality data for specific country.
+Repository contains scripts to generate geolocations as json-file and some utility scripts for checking data in those files. Geolocation files in json-format are alternative for Smartmet Server geonames-database and may be used if geonames.org doesn't have good quality data for specific country. The default data source for geolocation data is Overture Maps https://overturemaps.org/ but scripts can be customized for local data sources.
 
 ### create_locations_json.sh
 
