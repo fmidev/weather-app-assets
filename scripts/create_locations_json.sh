@@ -56,6 +56,9 @@ def localized_name($names):
     end
   );
 
+def round_coord:
+  (. * 10000 | round) / 10000;
+
 ($divisions[0].features
   | map(
       select(.properties.subtype == "region")
@@ -69,8 +72,8 @@ def localized_name($names):
   | {
       id: .id,
       name: localized_name(.properties.names),
-      longitude: .geometry.coordinates[0],
-      latitude: .geometry.coordinates[1],
+      longitude: (.geometry.coordinates[0] | round_coord),
+      latitude: (.geometry.coordinates[1] | round_coord),
       region: (
         .properties.hierarchies[0][]
         | select(.subtype == "region")
