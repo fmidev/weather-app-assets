@@ -4,9 +4,12 @@ TMP_DIR=/tmp/overturemaps
 SCRIPT_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
 OUTPUT_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)/locations"
 BBOX="19,59,32,71"
-TIMEZONE="Europe/Helsinki"
 COUNTRIES="AX,FI"
 LANGUAGES="fi,sv,en"
+TIMEZONES='{
+  "AX": "Europe/Mariehamn",
+  "FI": "Europe/Helsinki"
+}'
 
 if ! command -v jq >/dev/null 2>&1; then
     echo "Error: jq is not installed. Install it, for example, with: brew install jq" >&2
@@ -40,7 +43,7 @@ jq --arg countries "$COUNTRIES" '
   ]
 }' "$TMP_DIR/all.geojson" > "$TMP_DIR/filtered.geojson"
 
-jq --arg timezone "$TIMEZONE" --arg languages "$LANGUAGES" --slurpfile divisions "$TMP_DIR/all.geojson" '
+jq --argjson timezones "$TIMEZONES" --arg languages "$LANGUAGES" --slurpfile divisions "$TMP_DIR/all.geojson" '
 ($languages | split(",") | map(gsub("^\\s+|\\s+$"; ""))) as $allowed_languages
 |
 def localized_name($names):
@@ -81,7 +84,10 @@ def round_coord:
       ),
       country: .properties.country,
       population: .properties.population,
-      timezone: $timezone
+      timezone: (
+        $timezones[.properties.country]
+        // error("Timezone missing for country: \(.properties.country)")
+      )
     }
 ]
 ' "$TMP_DIR/filtered.geojson" > "$OUTPUT_DIR/locations.json"

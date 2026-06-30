@@ -26,10 +26,16 @@ Generates `locations/locations.json` file in the format that the app understands
 
 ```
 BBOX="19,59,32,71"
-TIMEZONE="Europe/Helsinki"
 COUNTRIES="AX,FI"
 LANGUAGES="fi,sv,en"
+TIMEZONES='{
+  "AX": "Europe/Mariehamn",
+  "FI": "Europe/Helsinki"
+}'
 ```
+
+Every country listed in `COUNTRIES` must have an IANA time zone in
+`TIMEZONES`. This mapping is suitable only for countries with one time zone.
 
 ### create_countries_json.sh
 
