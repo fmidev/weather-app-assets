@@ -7,3 +7,5 @@ export const REGULAR_FONT = 'Roboto-Regular';
 export const MEDIUM_FONT = 'Roboto-Medium';
 export const BOLD_FONT = 'Roboto-Bold';
 export const SEMIBOLD_FONT = 'Roboto-SemiBold';
+
+export const MAC_CONTENT_SIZE_MULTIPLIER = 1.3;
