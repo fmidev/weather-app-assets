@@ -41,6 +41,7 @@ import {
   GRAY_10_OPACITY_60,
   GRAY_4_OPACITY_50,
   MEDIUM_BLUE,
+  GRAY_1_OPACITY_15,
 } from '@assets/colors';
 import { Platform } from 'react-native';
 import { REGULAR_FONT, MEDIUM_FONT, BOLD_FONT } from '@assets/constants';
@@ -63,7 +64,7 @@ const fonts = Platform.select({
       fontFamily: BOLD_FONT,
       fontWeight: '700' as const,
     },
-  }
+  },
 });
 
 export const lightTheme = {
@@ -121,8 +122,10 @@ export const lightTheme = {
     weatherButtonBackground: GRAY_11_OPACITY_50,
     meteorologistSnapshotCard: '#f3f3f3',
     forecastBackground: MEDIUM_BLUE,
+    dayForecastBackground: GRAY_1_OPACITY_15,
+    precipitationStripBorder: GRAY_1,
   },
-  fonts
+  fonts,
 };
 
 export const darkTheme = {
@@ -160,7 +163,7 @@ export const darkTheme = {
     tabBarActive: WHITE,
     timeSliderObservationText: GRAY_1,
     timeSliderTick: GRAY_1,
-    listTint: GRAY_1_OPACITY,
+    listTint: GRAY_7,
     rain: {
       0: TRANSPARENT,
       1: RAIN_1_DARK,
@@ -180,6 +183,8 @@ export const darkTheme = {
     weatherButtonBackground: GRAY_4_OPACITY_50,
     meteorologistSnapshotCard: GRAY_6,
     forecastBackground: GRAY_4,
+    dayForecastBackground: GRAY_6,
+    precipitationStripBorder: GRAY_3,
   },
   fonts,
 };

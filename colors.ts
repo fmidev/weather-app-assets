@@ -38,8 +38,8 @@ export const GRAY_4_OPACITY_50 = 'rgba(53, 57, 68, 0.5)';
 export const GRAY_6_TRANSPARENT = 'rgba(28,28,30,0.0)';
 export const GRAY_6_95 = 'rgba(28,28,30,0.95)';
 
-export const GRAY_9_OPACITY_10 ='rgba(134, 134, 134, 0.10)';
-export const GRAY_10_OPACITY_60 ='rgba(44, 47, 50, 0.60)';
+export const GRAY_9_OPACITY_10 = 'rgba(134, 134, 134, 0.10)';
+export const GRAY_10_OPACITY_60 = 'rgba(44, 47, 50, 0.60)';
 export const GRAY_11_OPACITY_50 = 'rgba(245, 245, 245, 0.5)';
 
 export const BLACK_OPACITY = 'rgba(0,0,0,0.07)';
@@ -243,7 +243,9 @@ export type CustomTheme = {
     weatherButtonBackground: string;
     meteorologistSnapshotCard: string;
     forecastBackground: string;
-  },
+    dayForecastBackground: string;
+    precipitationStripBorder: string;
+  };
   fonts: {
     regular: FontStyle;
     medium: FontStyle;
