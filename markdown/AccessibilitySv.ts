@@ -6,8 +6,7 @@ Meteorologiska institutet ansvarar för denna applikation. Vi vill att så mång
 ## Hur tillgänglig är applikationen?
 Applikationen uppfyller delvis A- och AA-nivåns tillgänglighetskriterier som nämns i lagen (WCAG-kriterierna 2.1). Brister i tillgänglighet som förekommer i applikationen är beskrivna nedan.
 ## Noterade du brister i tillgängligheten?
-Vi strävar till att fortgående förbättra applikationens tillgänglighet. Om du upptäcker brister som inte beskrivs på den här sidan, meddela oss så gör vi vårt bästa för att åtgärda bristerna. Vi svarar så snart som möjligt eller senast inom två veckor. Du kan kontakta oss per e-post på adressen:
-tillganglighet@fmi.fi
+Vi strävar till att fortgående förbättra applikationens tillgänglighet. Om du upptäcker brister som inte beskrivs på den här sidan, meddela oss så gör vi vårt bästa för att åtgärda bristerna. Vi svarar så snart som möjligt eller senast inom två veckor. Du kan kontakta oss per e-post på adressen: [accessibility-feedback]
 ## Tillsyn
 Transport- och kommunikationsverket Traficom är den myndighet som övervakar att lagens tillgänglighetskrav följs i Finland. Om du inte är nöjd med det svar du har fått eller om du inte alls har fått något svar inom två veckor, kan du kontakta Traficom.
 

@@ -7,7 +7,7 @@ Tästä sovelluksesta vastaa Ilmatieteen laitos. Haluamme, että mahdollisimman 
 ## Miten saavutettava sovellus on?
 Tämä sovellus täyttää osittain lain vaatimat A- ja AA-tason saavutettavuuskriteerit (WCAG-kriteeristö 2.1). Sovelluksessa on saavutettavuuspuutteita, jotka on kuvattu tarkemmin alempana.
 ## Huomasitko puutteita saavutettavuudessa?
-Pyrimme jatkuvasti parantamaan sovelluksen saavutettavuutta. Jos löydät ongelmia, joita ei ole kuvattu tällä sivulla, ilmoita niistä meille ja teemme parhaamme puutteiden korjaamiseksi. Vastaamme mahdollisimman pian tai viimeistään kahden viikon sisällä. Voit ottaa yhteyttä sähköpostitse osoitteella: \nsaavutettavuus@fmi.fi
+Pyrimme jatkuvasti parantamaan sovelluksen saavutettavuutta. Jos löydät ongelmia, joita ei ole kuvattu tällä sivulla, ilmoita niistä meille ja teemme parhaamme puutteiden korjaamiseksi. Vastaamme mahdollisimman pian tai viimeistään kahden viikon sisällä. Voit ottaa yhteyttä sähköpostitse osoitteella: [accessibility-feedback]
 ## Saavutettavuuden valvonta
 Traficom valvoo saavutettavuusvaatimusten toteutumista vuoden 2025 alusta alkaen. Jos et ole tyytyväinen saamaasi vastaukseen tai et saa vastausta lainkaan kahden viikon aikana, voit antaa palautteen Traficomiin.
 \nDigitaalisen esteettömyyden ja saavutettavuuden valvontayksikkö\n\npuhelinnumero vaihde 029 534 5000

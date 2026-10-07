@@ -6,8 +6,7 @@ This application is the responsibility of the Finnish Meteorological Institute. 
 ## How accessible is the application?
 This application partly meets the accessibility criteria required by law at level A and AA (WCAG 2.1). The application has some shortcomings in accessibility, which are described in more detail below.
 ## Did you notice shortcomings in accessibility?
-We are constantly working to improve the accessibility of the application. If you discover any issues that are not described on this page, please let us know and we will do our best to remedy them. We will respond as soon as possible or within two weeks at the latest. You can contact us by email at:
-accessibility@fmi.fi
+We are constantly working to improve the accessibility of the application. If you discover any issues that are not described on this page, please let us know and we will do our best to remedy them. We will respond as soon as possible or within two weeks at the latest. You can contact us by email at: [accessibility-feedback]
 ## Accessibility monitoring
 Finnish Transport and Communications Agency Traficom monitors the implementation of accessibility requirements. If you are not satisfied with the response you have received or you do not receive a response at all within two weeks, you can give feedback to Traficom. The website provides detailed information on how to file a complaint and how the matter will be processed.
 \nDigital Accessibility Supervision Unit\n\ntelephone switchboard 029 534 5000
