@@ -2,8 +2,9 @@ export const PRIMARY_BLUE = '#303193';
 export const SECONDARY_BLUE = '#3A66E3';
 export const GRAYISH_BLUE = '#D8E7F2'; // line-light-mode
 export const LIGHT_BLUE = '#EEF4FB';
-export const LIGHT_BLUE_OPACITY_50 = 'rgba(238, 244, 251, 0.5)';
+export const LIGHT_BLUE_OPACITY_50 = 'hsla(212, 62%, 96%, 0.50)';
 export const MEDIUM_BLUE = '#93B8D1';
+export const SLATE_BLUE = 'rgb(89, 118, 143)';
 
 export const WHITE = '#FFFFFF';
 export const WHITE_TRANSPARENT = 'rgba(255,255,255,0.0)';
