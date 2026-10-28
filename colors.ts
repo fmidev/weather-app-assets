@@ -246,6 +246,7 @@ export type CustomTheme = {
     forecastBackground: string;
     dayForecastBackground: string;
     precipitationStripBorder: string;
+    selectedFavoriteBorder: string;
   };
   fonts: {
     regular: FontStyle;

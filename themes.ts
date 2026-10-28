@@ -125,6 +125,7 @@ export const lightTheme = {
     forecastBackground: SLATE_BLUE,
     dayForecastBackground: GRAY_1_OPACITY_15,
     precipitationStripBorder: GRAY_1,
+    selectedFavoriteBorder: GRAY_3,
   },
   fonts,
 };
@@ -186,6 +187,7 @@ export const darkTheme = {
     forecastBackground: GRAY_4,
     dayForecastBackground: GRAY_6,
     precipitationStripBorder: GRAY_3,
+    selectedFavoriteBorder: GRAYISH_BLUE,
   },
   fonts,
 };
@@ -245,6 +247,7 @@ export const blueTheme = {
     weatherButtonBackground: GRAY_4_OPACITY_50,
     meteorologistSnapshotCard: 'rgba(76, 76, 103, 0.6)',
     forecastBackground: GRAY_1,
+    selectedFavoriteBorder: WHITE,
   },
   fonts,
 };
