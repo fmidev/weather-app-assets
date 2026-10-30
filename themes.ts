@@ -125,7 +125,7 @@ export const lightTheme = {
     forecastBackground: SLATE_BLUE,
     dayForecastBackground: GRAY_1_OPACITY_15,
     precipitationStripBorder: GRAY_1,
-    selectedFavoriteBorder: GRAY_3,
+    selectedFavoriteBorder: SECONDARY_BLUE,
   },
   fonts,
 };
